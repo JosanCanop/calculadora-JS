@@ -1,0 +1,45 @@
+input {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  display: block;
+
+}
+
+.operator {
+  background: #0d586e;
+  color: white;
+  width: 20%;
+  text-decoration: none;
+  padding: 15px 15px;
+  display: inline-block;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.5s;
+}
+
+.operator:hover {
+  background: #2ac3f1;
+}
+
+.form {
+  margin-top: 5%;
+  display: grid;
+  place-items: center;
+}
+
+.resultado {
+  margin-top: 10px;
+  font-size: x-large;
+}
+
+.tittle:hover {
+  color: rgba(14, 6, 6, 0.74);
+  transform: scale(1.2);
+}
